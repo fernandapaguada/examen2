@@ -1,0 +1,290 @@
+.page, .page-content{
+	background-image: url("file:///Macintosh%20HD/Users/mariapaguada/Downloads/examen2-master/img/Pretty-Pink-iPhone-wallpaper8.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.page-content a{
+	color: #ffffff;
+}
+
+.md body{
+	color: #ffffff;
+}
+
+
+/* body {
+    background-color: #2d6472 !important;
+}
+
+.content {
+    background-color: #2d6472 !important;
+} */
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.backWhite {
+    background-color: white;
+}
+
+.avatar {
+    color: white;
+    margin-top: 50px;
+    font-size: 130px !important;
+}
+
+.textPrimary {
+    color: white;
+}
+
+.textSecondary {
+    color: white;
+    font-size: larger;
+}
+
+.round {
+    color: #fff !important;
+    width: auto !important;
+    height: auto !important;
+    margin: 0 auto 15px auto !important;
+    padding: 10px !important;
+    border: 1px solid #ccc !important;
+    -moz-border-radius: 11px !important;
+    -webkit-border-radius: 11px !important;
+    behavior: url(border-radius.htc) !important;
+    border-radius: 20px !important;
+}
+
+.round2 {
+    color: black !important;
+    background-color: #fff !important;
+    width: auto !important;
+    height: auto !important;
+    margin-top: 10px;
+    padding: 10px !important;
+    border: 1px solid #ccc !important;
+    -moz-border-radius: 11px !important;
+    -webkit-border-radius: 11px !important;
+    behavior: url(border-radius.htc) !important;
+    border-radius: 20px !important;
+}
+
+.combobox {
+    color: black !important;
+    background-color: #fff !important;
+    border: 1px solid #ccc !important;
+    behavior: url(border-radius.htc) !important;
+    border-radius: 20px !important;
+}
+
+.border {
+    width: 110px;
+    height: 2px;
+    background: white;
+    margin-top: -10px;
+}
+
+#login {
+    margin: 5px 0px;
+    text-align: center;
+	padding: 0px auto;
+}
+
+form {
+    display: inline-block;
+}
+
+form>div {
+    position: relative;
+    margin-top: 5px;
+}
+
+form>div>input {
+    box-sizing: border-box;
+    padding: 10px 30px 10px 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+
+.il {
+    position: absolute;
+    right: 35px;
+    color: white;
+    top: 5px;
+}
+
+
+.footer {
+    background-color: rgb(235, 85, 85);
+    width: 100%;
+    height: 10px;
+    bottom: 0;
+    position: fixed;
+    text-align: left !important;
+	padding: 0px;
+}
+
+h3 {
+    color: white;
+    text-align: left;
+}
+
+.nino{
+	border-radius: 100% !important;
+    width: 120px !important;
+    height: 120px !important;
+    font-size: 70px !important;
+    line-height: 120px !important;
+	background-color: #2196f3 !important;
+	margin-left: 30px !important;
+}
+
+.nina{
+	border-radius: 100% !important;
+    width: 120px !important;
+    height: 120px !important;
+    font-size: 70px !important;
+    line-height: 120px !important;
+	background-color: #f27979 !important;
+	margin-right: 30px !important;
+}
+
+
+input.round{
+	color: #000000 !important;
+}
+
+
+.h1{
+    color:#FFFFFF;
+	text-align: center;
+}
+
+
+
+.buttonR {
+    width: auto;
+    background-color: rgb(235, 85, 85);
+    border-radius: 50%;
+}
+
+h5{
+	color: white;
+	text-align: center;
+	font-size: 10px;
+
+}
+
+
+.icon-radio{
+	width: auto;
+	border-radius: 15%;
+	color: white;
+	
+}
+
+.item-title{
+	text-align: right;
+	color: #FFF4F4;
+}
+
+
+
+.buttonRed {
+    background-color: rgb(235, 85, 85) !important;
+    width: 160px !important;
+    height: 40px !important;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+
+
+
+
+
+
+.rating{
+	transform: translate(-50%,-50%);
+		display: flex;
+	
+
+}
+
+
+.rating label{
+	display: block;
+	cursor: pointer;
+	width: 50px;
+	background: black;	
+}
+.rating label:before
+{
+	content: '\f005';
+	font-family: 'FontAwesome';
+	 
+	position: relative;
+	display: block;
+
+} 
+
+
+
+.card{
+	background:transparent;
+	width: 300px;
+	min-height: 100px;
+	color: white;
+	
+	
+}
+
+ul.starRating{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul.starRating li{
+	float:left;
+	padding: 2px;
+	margin-left: 3px;
+}
+
+ul.starRating li:before{
+	content: '\f005';
+	font-family: 'FontAwesome';
+	font-size: 1.6em;
+	
+}
+
+ul.starRating li:hover::before{
+	color:black;
+}
+
+.button-red{
+	background-color: #f27979 !important;
+}
+
+.md .block{
+	padding: 0px 25px;
+}
+
+
+.golden, .carer{
+	border-radius: 100% !important;
+    width: 120px !important;
+    height: 120px !important;
+    line-height: 15px !important;
+	background-color: #2196f3 !important;
+	margin-left: 30px !important;
+	padding-top: 15px !important;
+	margin-bottom: 20px !important;
+}
+
+
